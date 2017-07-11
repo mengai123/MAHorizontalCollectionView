@@ -1,0 +1,539 @@
+ [
+  {
+  "itemTypeId": 1,
+  "itemTypeName": "分类1",
+  "itemList": [
+               {
+               "contClick": 1,
+               "itemInfoId": 11,
+               "itemName": "测试",
+               "itemPlayType": 0,
+               "itemPrice": 1,
+               "itemTypeId": 1,
+               "imageName": "test5"
+               },
+               {
+               "contClick": 1,
+               "itemInfoId": 12,
+               "itemName": "测试",
+               "itemPlayType": 0,
+               "itemPrice": 1,
+               "itemTypeId": 1,
+               "imageName": "test5"
+               },
+               {
+               "contClick": 1,
+               "itemInfoId": 8,
+               "itemName": "测试",
+               "itemPlayType": 0,
+               "itemPrice": 1,
+               "itemTypeId": 1,
+               "imageName": "test5"
+               },
+               {
+               "contClick": 1,
+               "itemInfoId": 4,
+               "itemName": "测试",
+               "itemPlayType": 0,
+               "itemPrice": 1,
+               "itemTypeId": 1,
+               "imageName": "test5"
+               },
+               {
+               "contClick": 1,
+               "itemInfoId": 1,
+               "itemName": "测试",
+               "itemPlayType": 0,
+               "itemPrice": 1,
+               "itemTypeId": 1,
+               "imageName": "test5"
+               },
+               {
+               "contClick": 1,
+               "itemInfoId": 3,
+               "itemName": "测试",
+               "itemPlayType": 0,
+               "itemPrice": 1,
+               "itemTypeId": 1,
+               "imageName": "test5"
+               },
+               {
+               "contClick": 1,
+               "itemInfoId": 10,
+               "itemName": "测试",
+               "itemPlayType": 0,
+               "itemPrice": 1,
+               "itemTypeId": 1,
+               "imageName": "test5"
+               },
+               {
+               "contClick": 1,
+               "itemInfoId": 5,
+               "itemName": "测试",
+               "itemPlayType": 0,
+               "itemPrice": 1,
+               "itemTypeId": 1,
+               "imageName": "test5"
+               },
+               {
+               "contClick": 1,
+               "itemInfoId": 36,
+               "itemName": "测试",
+               "itemPlayType": 0,
+               "itemPrice": 1,
+               "itemTypeId": 1,
+               "imageName": "test5"
+               },
+               {
+               "contClick": 1,
+               "itemInfoId": 37,
+               "itemName": "测试",
+               "itemPlayType": 0,
+               "itemPrice": 1,
+               "itemTypeId": 1,
+               "imageName": "test5"
+               },
+               {
+               "contClick": 0,
+               "itemInfoId": 666669,
+               "itemName": "测试",
+               "itemPlayType": 1,
+               "itemPrice": 1,
+               "itemTypeId": 1,
+               "imageName": "test5"
+               },
+               {
+               "contClick": 1,
+               "itemInfoId": 666689,
+               "itemName": "测试",
+               "itemPlayType": 0,
+               "itemPrice": 1,
+               "itemTypeId": 1,
+               "imageName": "test5"
+               },
+               {
+               "contClick": 1,
+               "itemInfoId": 666690,
+               "itemName": "测试",
+               "itemPlayType": 0,
+               "itemPrice": 1,
+               "itemTypeId": 1,
+               "imageName": "test5"
+               },
+               {
+               "contClick": 1,
+               "itemInfoId": 666691,
+               "itemName": "测试",
+               "itemPlayType": 0,
+               "itemPrice": 1,
+               "itemTypeId": 1,
+               "imageName": "test5"
+               }
+               ]
+  },
+  {
+  "itemTypeId": 25,
+  "itemTypeName": "分类2",
+  "itemList": [
+               {
+               "contClick": 1,
+               "itemInfoId": 13,
+               "itemName": "测试",
+               "itemPlayType": 0,
+               "itemPrice": 1,
+               "itemTypeId": 25,
+               "imageName": "test4"
+               },
+               {
+               "contClick": 1,
+               "itemInfoId": 14,
+               "itemName": "测试",
+               "itemPlayType": 0,
+               "itemPrice": 1,
+               "itemTypeId": 25,
+               "imageName": "test4"
+               },
+               {
+               "contClick": 1,
+               "itemInfoId": 15,
+               "itemName": "测试",
+               "itemPlayType": 0,
+               "itemPrice": 1,
+               "itemTypeId": 25,
+               "imageName": "test4"
+               },
+               {
+               "contClick": 1,
+               "itemInfoId": 16,
+               "itemName": "测试",
+               "itemPlayType": 0,
+               "itemPrice": 1,
+               "itemTypeId": 25,
+               "imageName": "test4"
+               },
+               {
+               "contClick": 1,
+               "itemInfoId": 17,
+               "itemName": "测试",
+               "itemPlayType": 0,
+               "itemPrice": 1,
+               "itemTypeId": 25,
+               "imageName": "test4"
+               },
+               {
+               "contClick": 1,
+               "itemInfoId": 18,
+               "itemName": "测试",
+               "itemPlayType": 0,
+               "itemPrice": 1,
+               "itemTypeId": 25,
+               "imageName": "test4"
+               },
+               {
+               "contClick": 1,
+               "itemInfoId": 19,
+               "itemName": "测试",
+               "itemPlayType": 0,
+               "itemPrice": 1,
+               "itemTypeId": 25,
+               "imageName": "test4"
+               },
+               {
+               "contClick": 1,
+               "itemInfoId": 20,
+               "itemName": "测试",
+               "itemPlayType": 0,
+               "itemPrice": 1,
+               "itemTypeId": 25,
+               "imageName": "test4"
+               },
+               {
+               "contClick": 1,
+               "itemInfoId": 21,
+               "itemName": "测试",
+               "itemPlayType": 0,
+               "itemPrice": 1,
+               "itemTypeId": 25,
+               "imageName": "test4"
+               },
+               {
+               "contClick": 1,
+               "itemInfoId": 22,
+               "itemName": "测试",
+               "itemPlayType": 0,
+               "itemPrice": 1,
+               "itemTypeId": 25,
+               "imageName": "test4"
+               }
+               ]
+  },
+  {
+  "itemTypeId": 26,
+  "itemTypeName": "分类3",
+  "itemList": [
+               {
+               "contClick": 1,
+               "itemInfoId": 23,
+               "itemName": "测试",
+               "itemPlayType": 0,
+               "itemPrice": 1,
+               "itemTypeId": 26,
+               "imageName": "test7"
+               },
+               {
+               "contClick": 1,
+               "itemInfoId": 24,
+               "itemName": "测试",
+               "itemPlayType": 0,
+               "itemPrice": 1,
+               "itemTypeId": 26,
+               "imageName": "test7"
+               },
+               {
+               "contClick": 1,
+               "itemInfoId": 25,
+               "itemName": "测试",
+               "itemPlayType": 0,
+               "itemPrice": 1,
+               "itemTypeId": 26,
+               "imageName": "test7"
+               },
+               {
+               "contClick": 1,
+               "itemInfoId": 26,
+               "itemName": "测试",
+               "itemPlayType": 0,
+               "itemPrice": 1,
+               "itemTypeId": 26,
+               "imageName": "test7"
+               },
+               {
+               "contClick": 1,
+               "itemInfoId": 27,
+               "itemName": "测试",
+               "itemPlayType": 0,
+               "itemPrice": 1,
+               "itemTypeId": 26,
+               "imageName": "test7"
+               },
+               {
+               "contClick": 1,
+               "itemInfoId": 28,
+               "itemName": "测试",
+               "itemPlayType": 0,
+               "itemPrice": 1,
+               "itemTypeId": 26,
+               "imageName": "test7"
+               },
+               {
+               "contClick": 1,
+               "itemInfoId": 29,
+               "itemName": "测试",
+               "itemPlayType": 0,
+               "itemPrice": 1,
+               "itemTypeId": 26,
+               "imageName": "test7"
+               },
+               {
+               "contClick": 1,
+               "itemInfoId": 30,
+               "itemName": "测试",
+               "itemPlayType": 0,
+               "itemPrice": 1,
+               "itemTypeId": 26,
+               "imageName": "test7"
+               },
+               {
+               "contClick": 1,
+               "itemInfoId": 31,
+               "itemName": "测试",
+               "itemPlayType": 0,
+               "itemPrice": 1,
+               "itemTypeId": 26,
+               "imageName": "test7"
+               },
+               {
+               "contClick": 1,
+               "itemInfoId": 32,
+               "itemName": "测试",
+               "itemPlayType": 0,
+               "itemPrice": 1,
+               "itemTypeId": 26,
+               "imageName": "test7"
+               },
+               {
+               "contClick": 1,
+               "itemInfoId": 33,
+               "itemName": "测试",
+               "itemPlayType": 0,
+               "itemPrice": 1,
+               "itemTypeId": 26,
+               "imageName": "test7"
+               },
+               {
+               "contClick": 1,
+               "itemInfoId": 34,
+               "itemName": "测试",
+               "itemPlayType": 0,
+               "itemPrice": 1,
+               "itemTypeId": 26,
+               "imageName": "test7"
+               },
+               {
+               "contClick": 1,
+               "itemInfoId": 35,
+               "itemName": "测试",
+               "itemPlayType": 0,
+               "itemPrice": 1,
+               "itemTypeId": 26,
+               "imageName": "test7"
+               }
+               ]
+  },
+  {
+  "itemTypeId": 24,
+  "itemTypeName": "分类4",
+  "itemList": [
+               {
+               "contClick": 1,
+               "itemInfoId": 666668,
+               "itemName": "测试",
+               "itemPlayType": 0,
+               "itemPrice": 1,
+               "itemTypeId": 24,
+               "imageName": "test3"
+               },
+               {
+               "contClick": 1,
+               "itemInfoId": 666670,
+               "itemName": "测试",
+               "itemPlayType": 0,
+               "itemPrice": 1,
+               "itemTypeId": 24,
+               "imageName": "test3"
+               },
+               {
+               "contClick": 1,
+               "itemInfoId": 666671,
+               "itemName": "测试",
+               "itemPlayType": 0,
+               "itemPrice": 1,
+               "itemTypeId": 24,
+               "imageName": "test3"
+               },
+               {
+               "contClick": 1,
+               "itemInfoId": 666672,
+               "itemName": "测试",
+               "itemPlayType": 0,
+               "itemPrice": 1,
+               "itemTypeId": 24,
+               "imageName": "test3"
+               },
+               {
+               "contClick": 1,
+               "itemInfoId": 666673,
+               "itemName": "测试",
+               "itemPlayType": 0,
+               "itemPrice": 1,
+               "itemTypeId": 24,
+               "imageName": "test3"
+               },
+               {
+               "contClick": 1,
+               "itemInfoId": 666674,
+               "itemName": "测试",
+               "itemPlayType": 0,
+               "itemPrice": 1,
+               "itemTypeId": 24,
+               "imageName": "test3"
+               },
+               {
+               "contClick": 1,
+               "itemInfoId": 666675,
+               "itemName": "测花",
+               "itemPlayType": 0,
+               "itemPrice": 1,
+               "itemTypeId": 24,
+               "imageName": "test3"
+               },
+               {
+               "contClick": 1,
+               "itemInfoId": 666676,
+               "itemName": "测试",
+               "itemPlayType": 0,
+               "itemPrice": 1,
+               "itemTypeId": 24,
+               "imageName": "test3"
+               },
+               {
+               "contClick": 1,
+               "itemInfoId": 666677,
+               "itemName": "测试",
+               "itemPlayType": 0,
+               "itemPrice": 1,
+               "itemTypeId": 24,
+               "imageName": "test3"
+               },
+               {
+               "contClick": 1,
+               "itemInfoId": 666678,
+               "itemName": "测试",
+               "itemPlayType": 0,
+               "itemPrice": 1,
+               "itemTypeId": 24,
+               "imageName": "test3"
+               },
+               {
+               "contClick": 1,
+               "itemInfoId": 666679,
+               "itemName": "测试",
+               "itemPlayType": 0,
+               "itemPrice": 1,
+               "itemTypeId": 24,
+               "imageName": "test3"
+               },
+               {
+               "contClick": 1,
+               "itemInfoId": 666680,
+               "itemName": "测试",
+               "itemPlayType": 0,
+               "itemPrice": 1,
+               "itemTypeId": 24,
+               "imageName": "test3"
+               },
+               {
+               "contClick": 1,
+               "itemInfoId": 666681,
+               "itemName": "心",
+               "itemPlayType": 0,
+               "itemPrice": 1,
+               "itemTypeId": 24,
+               "imageName": "test3"
+               },
+               {
+               "contClick": 1,
+               "itemInfoId": 666682,
+               "itemName": "测试",
+               "itemPlayType": 0,
+               "itemPrice": 1,
+               "itemTypeId": 24,
+               "imageName": "test3"
+               },
+               {
+               "contClick": 1,
+               "itemInfoId": 666683,
+               "itemName": "测试",
+               "itemPlayType": 0,
+               "itemPrice": 1,
+               "itemTypeId": 24,
+               "imageName": "test3"
+               },
+               {
+               "contClick": 1,
+               "itemInfoId": 666684,
+               "itemName": "测试",
+               "itemPlayType": 0,
+               "itemPrice": 1,
+               "itemTypeId": 24,
+               "imageName": "test3"
+               },
+               {
+               "contClick": 1,
+               "itemInfoId": 666685,
+               "itemName": "测试",
+               "itemPlayType": 0,
+               "itemPrice": 1,
+               "itemTypeId": 24,
+               "imageName": "test3"
+               },
+               {
+               "contClick": 1,
+               "itemInfoId": 666686,
+               "itemName": "测试",
+               "itemPlayType": 0,
+               "itemPrice": 1,
+               "itemTypeId": 24,
+               "imageName": "test3"
+               },
+               {
+               "contClick": 1,
+               "itemInfoId": 666687,
+               "itemName": "测试",
+               "itemPlayType": 0,
+               "itemPrice": 1,
+               "itemTypeId": 24,
+               "imageName": "test3"
+               },
+               {
+               "contClick": 1,
+               "itemInfoId": 666688,
+               "itemName": "测试",
+               "itemPlayType": 0,
+               "itemPrice": 1,
+               "itemTypeId": 24,
+               "imageName": "test3"
+               }
+               ]
+  }
+  ]

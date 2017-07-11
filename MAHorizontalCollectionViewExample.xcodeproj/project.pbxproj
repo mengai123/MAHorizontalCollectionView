@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01DBF43F0D8CC8835A9B827A /* libPods-MAHorizontalCollectionViewExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F45B7D351ACA92CB1A4D0E /* libPods-MAHorizontalCollectionViewExample.a */; };
+		AB060A671F14D59600D84BCF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB060A661F14D59600D84BCF /* main.m */; };
+		AB060A6A1F14D59600D84BCF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB060A691F14D59600D84BCF /* AppDelegate.m */; };
+		AB060A6D1F14D59600D84BCF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB060A6C1F14D59600D84BCF /* ViewController.m */; };
+		AB060A701F14D59600D84BCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB060A6E1F14D59600D84BCF /* Main.storyboard */; };
+		AB060A721F14D59600D84BCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB060A711F14D59600D84BCF /* Assets.xcassets */; };
+		AB060A751F14D59600D84BCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB060A731F14D59600D84BCF /* LaunchScreen.storyboard */; };
+		AB060A9D1F14D71700D84BCF /* MAItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AB060A7F1F14D71700D84BCF /* MAItemCell.m */; };
+		AB060A9E1F14D71700D84BCF /* MACategoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AB060A811F14D71700D84BCF /* MACategoryCell.m */; };
+		AB060A9F1F14D71700D84BCF /* MAHorizontalPageFlowlayout.m in Sources */ = {isa = PBXBuildFile; fileRef = AB060A851F14D71700D84BCF /* MAHorizontalPageFlowlayout.m */; };
+		AB060AA11F14D71700D84BCF /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = AB060A891F14D71700D84BCF /* UIView+Extension.m */; };
+		AB060AA31F14D71700D84BCF /* MAApiItemListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AB060A8E1F14D71700D84BCF /* MAApiItemListModel.m */; };
+		AB060AA41F14D71700D84BCF /* Resourse.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AB060A901F14D71700D84BCF /* Resourse.bundle */; };
+		AB060AA51F14D71700D84BCF /* MAItemListLandscapeView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB060A931F14D71700D84BCF /* MAItemListLandscapeView.m */; };
+		AB060AA61F14D71700D84BCF /* MAItemListPortraitView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB060A951F14D71700D84BCF /* MAItemListPortraitView.m */; };
+		AB060AA91F14D71700D84BCF /* MAItemListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AB060A9C1F14D71700D84BCF /* MAItemListViewModel.m */; };
+		AB060AAD1F14D84B00D84BCF /* MAItemListView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB060AAC1F14D84B00D84BCF /* MAItemListView.m */; };
+		AB060AB31F14D8B600D84BCF /* MAPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = AB060AB21F14D8B600D84BCF /* MAPageControl.m */; };
+		AB060AB61F14D8E700D84BCF /* MADataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = AB060AB51F14D8E700D84BCF /* MADataHelper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		16111CC145210B4F8EEB263C /* Pods-MAHorizontalCollectionViewExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MAHorizontalCollectionViewExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-MAHorizontalCollectionViewExample/Pods-MAHorizontalCollectionViewExample.release.xcconfig"; sourceTree = "<group>"; };
+		27F45B7D351ACA92CB1A4D0E /* libPods-MAHorizontalCollectionViewExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MAHorizontalCollectionViewExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B270974EF1C2EEFBDECAC37 /* Pods-MAHorizontalCollectionViewExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MAHorizontalCollectionViewExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MAHorizontalCollectionViewExample/Pods-MAHorizontalCollectionViewExample.debug.xcconfig"; sourceTree = "<group>"; };
+		AB060A621F14D59600D84BCF /* MAHorizontalCollectionViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MAHorizontalCollectionViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB060A661F14D59600D84BCF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB060A681F14D59600D84BCF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AB060A691F14D59600D84BCF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AB060A6B1F14D59600D84BCF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AB060A6C1F14D59600D84BCF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AB060A6F1F14D59600D84BCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB060A711F14D59600D84BCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB060A741F14D59600D84BCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB060A761F14D59600D84BCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB060A7E1F14D71700D84BCF /* MAItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAItemCell.h; sourceTree = "<group>"; };
+		AB060A7F1F14D71700D84BCF /* MAItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAItemCell.m; sourceTree = "<group>"; };
+		AB060A801F14D71700D84BCF /* MACategoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MACategoryCell.h; sourceTree = "<group>"; };
+		AB060A811F14D71700D84BCF /* MACategoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MACategoryCell.m; sourceTree = "<group>"; };
+		AB060A831F14D71700D84BCF /* Macro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
+		AB060A841F14D71700D84BCF /* MAHorizontalPageFlowlayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAHorizontalPageFlowlayout.h; sourceTree = "<group>"; };
+		AB060A851F14D71700D84BCF /* MAHorizontalPageFlowlayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAHorizontalPageFlowlayout.m; sourceTree = "<group>"; };
+		AB060A881F14D71700D84BCF /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		AB060A891F14D71700D84BCF /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		AB060A8D1F14D71700D84BCF /* MAApiItemListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAApiItemListModel.h; sourceTree = "<group>"; };
+		AB060A8E1F14D71700D84BCF /* MAApiItemListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAApiItemListModel.m; sourceTree = "<group>"; };
+		AB060A901F14D71700D84BCF /* Resourse.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Resourse.bundle; sourceTree = "<group>"; };
+		AB060A921F14D71700D84BCF /* MAItemListLandscapeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAItemListLandscapeView.h; sourceTree = "<group>"; };
+		AB060A931F14D71700D84BCF /* MAItemListLandscapeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAItemListLandscapeView.m; sourceTree = "<group>"; };
+		AB060A941F14D71700D84BCF /* MAItemListPortraitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAItemListPortraitView.h; sourceTree = "<group>"; };
+		AB060A951F14D71700D84BCF /* MAItemListPortraitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAItemListPortraitView.m; sourceTree = "<group>"; };
+		AB060A9B1F14D71700D84BCF /* MAItemListViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAItemListViewModel.h; sourceTree = "<group>"; };
+		AB060A9C1F14D71700D84BCF /* MAItemListViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAItemListViewModel.m; sourceTree = "<group>"; };
+		AB060AAA1F14D72400D84BCF /* MAPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAPrefixHeader.pch; sourceTree = "<group>"; };
+		AB060AAB1F14D84B00D84BCF /* MAItemListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAItemListView.h; sourceTree = "<group>"; };
+		AB060AAC1F14D84B00D84BCF /* MAItemListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAItemListView.m; sourceTree = "<group>"; };
+		AB060AB11F14D8B600D84BCF /* MAPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAPageControl.h; sourceTree = "<group>"; };
+		AB060AB21F14D8B600D84BCF /* MAPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAPageControl.m; sourceTree = "<group>"; };
+		AB060AB41F14D8E700D84BCF /* MADataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MADataHelper.h; sourceTree = "<group>"; };
+		AB060AB51F14D8E700D84BCF /* MADataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MADataHelper.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB060A5F1F14D59600D84BCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01DBF43F0D8CC8835A9B827A /* libPods-MAHorizontalCollectionViewExample.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7AADE8D6B334EF456E111866 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B270974EF1C2EEFBDECAC37 /* Pods-MAHorizontalCollectionViewExample.debug.xcconfig */,
+				16111CC145210B4F8EEB263C /* Pods-MAHorizontalCollectionViewExample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AB060A591F14D59600D84BCF = {
+			isa = PBXGroup;
+			children = (
+				AB060A7C1F14D71700D84BCF /* MAHorizontalCollectionView */,
+				AB060A641F14D59600D84BCF /* MAHorizontalCollectionViewExample */,
+				AB060A631F14D59600D84BCF /* Products */,
+				7AADE8D6B334EF456E111866 /* Pods */,
+				B33DC6EBC37C77E83FEE8E3A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AB060A631F14D59600D84BCF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB060A621F14D59600D84BCF /* MAHorizontalCollectionViewExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB060A641F14D59600D84BCF /* MAHorizontalCollectionViewExample */ = {
+			isa = PBXGroup;
+			children = (
+				AB060A681F14D59600D84BCF /* AppDelegate.h */,
+				AB060A691F14D59600D84BCF /* AppDelegate.m */,
+				AB060A6B1F14D59600D84BCF /* ViewController.h */,
+				AB060A6C1F14D59600D84BCF /* ViewController.m */,
+				AB060AB41F14D8E700D84BCF /* MADataHelper.h */,
+				AB060AB51F14D8E700D84BCF /* MADataHelper.m */,
+				AB060A6E1F14D59600D84BCF /* Main.storyboard */,
+				AB060A711F14D59600D84BCF /* Assets.xcassets */,
+				AB060A731F14D59600D84BCF /* LaunchScreen.storyboard */,
+				AB060A761F14D59600D84BCF /* Info.plist */,
+				AB060A651F14D59600D84BCF /* Supporting Files */,
+			);
+			path = MAHorizontalCollectionViewExample;
+			sourceTree = "<group>";
+		};
+		AB060A651F14D59600D84BCF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB060AAA1F14D72400D84BCF /* MAPrefixHeader.pch */,
+				AB060A661F14D59600D84BCF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB060A7C1F14D71700D84BCF /* MAHorizontalCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				AB060AAB1F14D84B00D84BCF /* MAItemListView.h */,
+				AB060AAC1F14D84B00D84BCF /* MAItemListView.m */,
+				AB060A911F14D71700D84BCF /* view */,
+				AB060A7D1F14D71700D84BCF /* cell */,
+				AB060A9A1F14D71700D84BCF /* viewModel */,
+				AB060A8C1F14D71700D84BCF /* model */,
+				AB060A821F14D71700D84BCF /* General */,
+				AB060A8F1F14D71700D84BCF /* Resource */,
+			);
+			name = MAHorizontalCollectionView;
+			path = MAHorizontalCollectionViewExample/MAHorizontalCollectionView;
+			sourceTree = "<group>";
+		};
+		AB060A7D1F14D71700D84BCF /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				AB060A7E1F14D71700D84BCF /* MAItemCell.h */,
+				AB060A7F1F14D71700D84BCF /* MAItemCell.m */,
+				AB060A801F14D71700D84BCF /* MACategoryCell.h */,
+				AB060A811F14D71700D84BCF /* MACategoryCell.m */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		AB060A821F14D71700D84BCF /* General */ = {
+			isa = PBXGroup;
+			children = (
+				AB060A831F14D71700D84BCF /* Macro.h */,
+				AB060A841F14D71700D84BCF /* MAHorizontalPageFlowlayout.h */,
+				AB060A851F14D71700D84BCF /* MAHorizontalPageFlowlayout.m */,
+				AB060A881F14D71700D84BCF /* UIView+Extension.h */,
+				AB060A891F14D71700D84BCF /* UIView+Extension.m */,
+				AB060AB11F14D8B600D84BCF /* MAPageControl.h */,
+				AB060AB21F14D8B600D84BCF /* MAPageControl.m */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		AB060A8C1F14D71700D84BCF /* model */ = {
+			isa = PBXGroup;
+			children = (
+				AB060A8D1F14D71700D84BCF /* MAApiItemListModel.h */,
+				AB060A8E1F14D71700D84BCF /* MAApiItemListModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		AB060A8F1F14D71700D84BCF /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				AB060A901F14D71700D84BCF /* Resourse.bundle */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		AB060A911F14D71700D84BCF /* view */ = {
+			isa = PBXGroup;
+			children = (
+				AB060A941F14D71700D84BCF /* MAItemListPortraitView.h */,
+				AB060A951F14D71700D84BCF /* MAItemListPortraitView.m */,
+				AB060A921F14D71700D84BCF /* MAItemListLandscapeView.h */,
+				AB060A931F14D71700D84BCF /* MAItemListLandscapeView.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		AB060A9A1F14D71700D84BCF /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AB060A9B1F14D71700D84BCF /* MAItemListViewModel.h */,
+				AB060A9C1F14D71700D84BCF /* MAItemListViewModel.m */,
+			);
+			path = viewModel;
+			sourceTree = "<group>";
+		};
+		B33DC6EBC37C77E83FEE8E3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27F45B7D351ACA92CB1A4D0E /* libPods-MAHorizontalCollectionViewExample.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB060A611F14D59600D84BCF /* MAHorizontalCollectionViewExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB060A791F14D59600D84BCF /* Build configuration list for PBXNativeTarget "MAHorizontalCollectionViewExample" */;
+			buildPhases = (
+				00E1DFADE0BF5D2CEC40DF1C /* [CP] Check Pods Manifest.lock */,
+				AB060A5E1F14D59600D84BCF /* Sources */,
+				AB060A5F1F14D59600D84BCF /* Frameworks */,
+				AB060A601F14D59600D84BCF /* Resources */,
+				5F1B37FA220598E0ACC5992B /* [CP] Embed Pods Frameworks */,
+				3CB58C20A14C29FBDB93FB8E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MAHorizontalCollectionViewExample;
+			productName = MAHorizontalCollectionViewExample;
+			productReference = AB060A621F14D59600D84BCF /* MAHorizontalCollectionViewExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB060A5A1F14D59600D84BCF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = mengai;
+				TargetAttributes = {
+					AB060A611F14D59600D84BCF = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = Q8Q5Z7JSG7;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AB060A5D1F14D59600D84BCF /* Build configuration list for PBXProject "MAHorizontalCollectionViewExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB060A591F14D59600D84BCF;
+			productRefGroup = AB060A631F14D59600D84BCF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB060A611F14D59600D84BCF /* MAHorizontalCollectionViewExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB060A601F14D59600D84BCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB060A751F14D59600D84BCF /* LaunchScreen.storyboard in Resources */,
+				AB060A721F14D59600D84BCF /* Assets.xcassets in Resources */,
+				AB060A701F14D59600D84BCF /* Main.storyboard in Resources */,
+				AB060AA41F14D71700D84BCF /* Resourse.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00E1DFADE0BF5D2CEC40DF1C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3CB58C20A14C29FBDB93FB8E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MAHorizontalCollectionViewExample/Pods-MAHorizontalCollectionViewExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F1B37FA220598E0ACC5992B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MAHorizontalCollectionViewExample/Pods-MAHorizontalCollectionViewExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB060A5E1F14D59600D84BCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB060AB31F14D8B600D84BCF /* MAPageControl.m in Sources */,
+				AB060AA31F14D71700D84BCF /* MAApiItemListModel.m in Sources */,
+				AB060A6D1F14D59600D84BCF /* ViewController.m in Sources */,
+				AB060AA61F14D71700D84BCF /* MAItemListPortraitView.m in Sources */,
+				AB060AA91F14D71700D84BCF /* MAItemListViewModel.m in Sources */,
+				AB060A9E1F14D71700D84BCF /* MACategoryCell.m in Sources */,
+				AB060A9F1F14D71700D84BCF /* MAHorizontalPageFlowlayout.m in Sources */,
+				AB060AA51F14D71700D84BCF /* MAItemListLandscapeView.m in Sources */,
+				AB060A9D1F14D71700D84BCF /* MAItemCell.m in Sources */,
+				AB060AB61F14D8E700D84BCF /* MADataHelper.m in Sources */,
+				AB060A6A1F14D59600D84BCF /* AppDelegate.m in Sources */,
+				AB060AA11F14D71700D84BCF /* UIView+Extension.m in Sources */,
+				AB060A671F14D59600D84BCF /* main.m in Sources */,
+				AB060AAD1F14D84B00D84BCF /* MAItemListView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AB060A6E1F14D59600D84BCF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB060A6F1F14D59600D84BCF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB060A731F14D59600D84BCF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB060A741F14D59600D84BCF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB060A771F14D59600D84BCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AB060A781F14D59600D84BCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB060A7A1F14D59600D84BCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B270974EF1C2EEFBDECAC37 /* Pods-MAHorizontalCollectionViewExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q8Q5Z7JSG7;
+				GCC_PREFIX_HEADER = /Users/mengai/CodeStore/iOS/WorkDemo/MAHorizontalCollectionViewExample/MAHorizontalCollectionViewExample/MAPrefixHeader.pch;
+				INFOPLIST_FILE = MAHorizontalCollectionViewExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.MAHorizontalCollectionViewExample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AB060A7B1F14D59600D84BCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16111CC145210B4F8EEB263C /* Pods-MAHorizontalCollectionViewExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q8Q5Z7JSG7;
+				GCC_PREFIX_HEADER = /Users/mengai/CodeStore/iOS/WorkDemo/MAHorizontalCollectionViewExample/MAHorizontalCollectionViewExample/MAPrefixHeader.pch;
+				INFOPLIST_FILE = MAHorizontalCollectionViewExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.MAHorizontalCollectionViewExample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB060A5D1F14D59600D84BCF /* Build configuration list for PBXProject "MAHorizontalCollectionViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB060A771F14D59600D84BCF /* Debug */,
+				AB060A781F14D59600D84BCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB060A791F14D59600D84BCF /* Build configuration list for PBXNativeTarget "MAHorizontalCollectionViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB060A7A1F14D59600D84BCF /* Debug */,
+				AB060A7B1F14D59600D84BCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB060A5A1F14D59600D84BCF /* Project object */;
+}

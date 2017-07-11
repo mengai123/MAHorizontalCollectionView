@@ -1,0 +1,37 @@
+//
+//  MAPrefixHeader.pch
+//  MAHorizontalCollectionView
+//
+//  Created by mengai on 2017/7/10.
+//  Copyright © 2017年 mengai. All rights reserved.
+//
+
+#ifndef MAPrefixHeader_pch
+#define MAPrefixHeader_pch
+
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <QuartzCore/QuartzCore.h>
+
+#import "Macro.h"
+#import "UIView+Extension.h"
+
+
+//define this constant if you want to use Masonry without the 'mas_' prefix
+#define MAS_SHORTHAND
+
+//define this constant if you want to enable auto-boxing for default syntax
+#define MAS_SHORTHAND_GLOBALS
+
+#import "Masonry.h"
+#endif
+
+
+
+#endif /* MAPrefixHeader_pch */
+
+
+
+
