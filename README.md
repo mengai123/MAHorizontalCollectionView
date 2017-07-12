@@ -22,3 +22,6 @@
 演示效果gif：
 
 ![](https://github.com/ma762614600/ResourceRepository/blob/master/image/gif/collectionView.gif)
+
+
+文章地址： http://www.jianshu.com/p/dbf9e1e3fb34
